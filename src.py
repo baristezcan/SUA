@@ -210,7 +210,7 @@ class suaModel:
         obj_results['Expected Profit'] = [self.max_profit]
         obj_results['Expected Minimum Maximum Substitition'] = [self.min_max_subs]
         self.obj_results = obj_results
-        obj_results.to_csv(f"results_{self.alpha}")
+        obj_results.to_csv(f"results_{self.alpha*10}.csv")
 
         #product df 
         prod_results_df = pd.DataFrame.from_dict(x_dict, orient = 'index', columns = ['Surplus'])
@@ -232,7 +232,7 @@ class suaModel:
         prod_results_df = prod_results_df.loc[:,['Product', 'Surplus', 'Base Production',
                               'Substitutability Group', 'Ave_Self_Assign', 'Ave_Assign_to_Others',
                               'Average Unused Stock', 'Alpha']]
-        prod_results_df.to_csv(f'sua_{self.alpha}')
+        prod_results_df.to_csv(f'sua_{self.alpha*100}.csv')
         self.prod_results = prod_results_df
         #group df 
         ave_group_sub = {}
