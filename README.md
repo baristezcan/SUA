@@ -7,9 +7,11 @@ If you want to run the model and get results without modifying any settings (whi
 
 If you would like to see how the model works, please check the src.py. The code is commented and modular. There 3 methods besides initialization. 
 
-•	scenarioSampler(): generates scenarios based on the given distributions. Number of scenarios and rng can be changed. 
-•	optimize(): creates a Gurobi model object based on the input and the model defined in the other document. Alpha value and Gurobi parameters can be changed. 
-•	printOutputs(): creates a dataframe from the optimal solution and also writes solutions to a csv file. 
+scenarioSampler(): generates scenarios based on the given distributions. Number of scenarios and rng can be changed. 
+
+optimize(): creates a Gurobi model object based on the input and the model defined in the other document. Alpha value and Gurobi parameters can be changed. 
+
+printOutputs(): creates a dataframe from the optimal solution and also writes solutions to a csv file. 
 
 There is also an additional dash_table_maker function, which takes experiment results dataframe and objective function results dataframe and creates a browser-based dashboard. 
 
