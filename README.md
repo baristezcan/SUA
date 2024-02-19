@@ -13,6 +13,5 @@ If you would like to see how the model works, please check the src.py. The code 
 •	optimize(): creates a Gurobi model object based on the input and the model defined in the other document. Alpha value and Gurobi parameters can be changed. 
 •	printOutputs(): creates a dataframe from the optimal solution and also writes solutions to a csv file. 
 
-There is also an additional dash_table_maker function which takes experiment results dataframe and objective function results dataframe and creates a browser-based dashboard. 
+There is also an additional dash_table_maker function, which takes experiment results dataframe and objective function results dataframe and creates a browser-based dashboard. 
 
-![image](https://github.com/baristezcan/SUA/assets/42410922/a504456a-c8b0-44b2-a701-5b6a0faa02f9)
