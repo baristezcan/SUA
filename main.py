@@ -11,7 +11,7 @@ import pandas as pd
 
 
 #MAKE SURE TO UPDATE THE INPUT LOCATION  
-data_loc = '/Users/tezcan.b/Dropbox/Kaggle_ML/SUA/input_sua.xlsx'
+data_loc = '/SUA/input_sua.xlsx'
 #creates the model object
 m = suaModel(data_loc)
 #samples scenarios 
