@@ -1,5 +1,3 @@
-# SUA
-My solution for the SUA project
 
 Please see the Project and Model Description document for a detailed description of my approach. This document is about how to use the source code for the math model and output generation. 
 
